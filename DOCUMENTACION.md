@@ -1,12 +1,12 @@
 # Documentación - Microservicio de Gestión de Usuarios y Pedidos
 
-## 📋 Resumen del Proyecto
+## Resumen del Proyecto
 
 Desarrollo de un **microservicio Full-Stack** que implementa un sistema de gestión de clientes y pedidos utilizando **MongoDB** como base de datos NoSQL y **Spring Boot 3.x** como framework de desarrollo. Este proyecto demuestra la flexibilidad de las bases de datos documentales versus las bases de datos relacionales tradicionales.
 
 ---
 
-## 🎯 Objetivos Completados
+## Objetivos Completados
 
 ✅ Configurar un entorno local de base de datos NoSQL (MongoDB)  
 ✅ Crear un proyecto Spring Boot con las dependencias necesarias  
@@ -17,7 +17,7 @@ Desarrollo de un **microservicio Full-Stack** que implementa un sistema de gesti
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 fullstack-java-nosql/
@@ -51,7 +51,7 @@ fullstack-java-nosql/
 
 ---
 
-## 🔧 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Tecnología | Versión | Propósito |
 |-----------|---------|----------|
@@ -64,7 +64,7 @@ fullstack-java-nosql/
 
 ---
 
-## 📋 Fases de Desarrollo
+## Fases de Desarrollo
 
 ### **FASE 1: Infraestructura y Base de Datos**
 
@@ -95,10 +95,10 @@ mongosh --eval "show dbs"
 ```
 
 **Resultado:**
-- ✅ MongoDB Server 8.2.5 instalado
-- ✅ Servicio ejecutándose en puerto 27017
-- ✅ Base de datos `logistica_db` creada
-- ✅ Carpeta `C:\data\db` disponible
+-  MongoDB Server 8.2.5 instalado
+-  Servicio ejecutándose en puerto 27017
+-  Base de datos `logistica_db` creada
+-  Carpeta `C:\data\db` disponible
 
 ---
 
@@ -292,9 +292,9 @@ INICIANDO SISTEMA DE GESTIÓN DE CLIENTES
 >>> PASO 3: Recuperando TODOS los clientes con findAll():
 ========================================
 
-📋 Cliente{id='...', nombre='Alicia', apellidos='González Martínez', ...}
-📋 Cliente{id='...', nombre='Roberto', apellidos='Sánchez López', ...}
-📋 Cliente{id='...', nombre='María', apellidos='Rodríguez Pérez', ...}
+Cliente{id='...', nombre='Alicia', apellidos='González Martínez', ...}
+Cliente{id='...', nombre='Roberto', apellidos='Sánchez López', ...}
+Cliente{id='...', nombre='María', apellidos='Rodríguez Pérez', ...}
 
 >>> Total de clientes encontrados: 3
 
@@ -318,7 +318,7 @@ INICIANDO SISTEMA DE GESTIÓN DE CLIENTES
 
 ---
 
-## 🔍 Verificación en MongoDB
+## Verificación en MongoDB
 
 ### Consulta: Ver todos los documentos
 ```bash
@@ -356,7 +356,7 @@ mongosh logistica_db --eval "db.clientes.find({nombre: 'Alicia'}).pretty()"
 
 ---
 
-## 📊 Comparativa: SQL vs NoSQL
+## Comparativa: SQL vs NoSQL
 
 | Aspecto | SQL (Relacional) | NoSQL (MongoDB) |
 |--------|-----------------|-----------------|
@@ -371,7 +371,7 @@ La lista de pedidos está **embebida directamente en el cliente**, sin necesidad
 
 ---
 
-## 🛠️ Problemas Encontrados y Soluciones
+## Problemas Encontrados y Soluciones
 
 ### Problema 1: Dos clases Application
 **Descripción:** Maven no sabía cuál era la clase principal
@@ -391,7 +391,7 @@ La lista de pedidos está **embebida directamente en el cliente**, sin necesidad
 
 ---
 
-## 📚 Archivos Generados
+## Archivos Generados
 
 ### Código Fuente (src/)
 ```
@@ -421,20 +421,7 @@ target/
 
 ---
 
-## ✅ Criterios de Evaluación (Rúbrica)
-
-| Criterio | Peso | Estado | Evidencia |
-|----------|------|--------|-----------|
-| **Configuración Entorno** | 20% | ✅ Completo | MongoDB corriendo, Spring Boot conectado sin errores |
-| **Modelado NoSQL** | 30% | ✅ Completo | @Document, @Id, estructura con pedidos embebidos |
-| **Repositorio** | 30% | ✅ Completo | MongoRepository, Derived Queries (findByNombre, findByApellidos, findByEmail) |
-| **Funcionalidad** | 20% | ✅ Completo | Inserción, eliminación y recuperación demostrables en consola |
-
-**Puntuación Total:** 100% ✅
-
----
-
-## 🚀 Cómo Reproducir el Proyecto
+## Cómo Reproducir el Proyecto
 
 ### Requisitos Previos
 - Java 17+ instalado
@@ -468,7 +455,7 @@ target/
 
 ---
 
-## 📖 Referencias
+## Referencias
 
 - [Spring Data MongoDB Documentation](https://spring.io/projects/spring-data-mongodb)
 - [MongoDB Documentation](https://docs.mongodb.com/)
@@ -477,17 +464,17 @@ target/
 
 ---
 
-## 👨‍💻 Resumen de Competencias Demostradas
+## Resumen de Competencias Demostradas
 
-✅ **Instalación y configuración de bases de datos NoSQL**  
-✅ **Desarrollo con Spring Boot 3.x**  
-✅ **Mapeo de entidades BSON/JSON en Java**  
-✅ **Implementación de repositorios con Spring Data**  
-✅ **Consultas derivadas y operaciones CRUD**  
-✅ **Generación de JAR ejecutables**  
-✅ **Documentación técnica de proyectos**  
+ **Instalación y configuración de bases de datos NoSQL**  
+ **Desarrollo con Spring Boot 3.x**  
+ **Mapeo de entidades BSON/JSON en Java**  
+ **Implementación de repositorios con Spring Data**  
+ **Consultas derivadas y operaciones CRUD**  
+ **Generación de JAR ejecutables**  
+ **Documentación técnica de proyectos**  
 
 ---
 
 **Fecha de Finalización:** 18 de Febrero de 2026  
-**Estado:** ✅ COMPLETADO
+**Estado:**  COMPLETADO
