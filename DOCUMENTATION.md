@@ -258,7 +258,7 @@ mvn clean package -DskipTests
 
 ---
 
-## ▶️ Ejecución de la Aplicación
+## Ejecución de la Aplicación
 
 ### Opción 1: Ejecutar con Maven
 ```bash
