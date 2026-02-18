@@ -8,12 +8,12 @@ Desarrollo de un **microservicio Full-Stack** que implementa un sistema de gesti
 
 ## Objetivos Completados
 
-✅ Configurar un entorno local de base de datos NoSQL (MongoDB)  
-✅ Crear un proyecto Spring Boot con las dependencias necesarias  
-✅ Modelar documentos BSON utilizando clases Java (POJOs) y anotaciones  
-✅ Implementar la capa de acceso a datos utilizando MongoRepository  
-✅ Realizar operaciones CRUD y consultas personalizadas (Derived Queries)  
-✅ Ejecutar la aplicación y validar funcionamiento con datos reales  
+Configurar un entorno local de base de datos NoSQL (MongoDB)  
+Crear un proyecto Spring Boot con las dependencias necesarias  
+Modelar documentos BSON utilizando clases Java (POJOs) y anotaciones  
+Implementar la capa de acceso a datos utilizando MongoRepository  
+Realizar operaciones CRUD y consultas personalizadas (Derived Queries)  
+Ejecutar la aplicación y validar funcionamiento con datos reales  
 
 ---
 
